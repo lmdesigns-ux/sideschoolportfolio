@@ -64,16 +64,74 @@ document.addEventListener('DOMContentLoaded', () => {
                 const projectCard = `
                     <div class="project-card">
                         <div class="project-thumbnail">
-                            <img src="${project.image}" alt="${project.title}">
+                            <img src="${project.image}" data-small-src="${project.image}" data-large-src="${project.image_large}" alt="${project.title}">
                         </div>
-                        <h3>${project.title}</h3>
-                        <p>${project.description}</p>
+                        <div class="project-content">
+                            <h3>${project.title}</h3>
+                            <p class="project-description">${project.description}</p>
+                            <p class="project-detailed-description">${project.detailedDescription}</p>
+                            <p class="image-caption">${project.imageCaption}</p>
+                            <button class="close-button">×</button>
+                        </div>
                     </div>
                 `;
                 projectsContainer.innerHTML += projectCard;
             });
             
             console.log('Projects loaded successfully!');
+
+            // Add click event listeners to project cards
+            const projectCards = document.querySelectorAll('.project-card');
+            const body = document.body;
+
+            // Create overlay element
+            const overlay = document.createElement('div');
+            overlay.className = 'project-overlay';
+            body.appendChild(overlay);
+
+            projectCards.forEach(card => {
+                const closeButton = card.querySelector('.close-button');
+
+                card.addEventListener('click', function(e) {
+                    if (!card.classList.contains('expanded') && e.target !== closeButton) {
+                        expandProject(card);
+                        body.style.overflow = 'hidden';
+                    }
+                });
+
+                closeButton.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    collapseProject(card);
+                    body.style.overflow = '';
+                });
+            });
+
+            // Add keyboard navigation
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'Escape') {
+                    const expandedCard = document.querySelector('.project-card.expanded');
+                    if (expandedCard) {
+                        collapseProject(expandedCard);
+                        body.style.overflow = '';
+                    }
+                }
+            });
+
+            function expandProject(card) {
+                const thumbnail = card.querySelector('img');
+                const largeSrc = thumbnail.getAttribute('data-large-src');
+                thumbnail.src = largeSrc;
+                card.classList.add('expanded');
+                document.querySelector('.project-overlay').classList.add('active');
+            }
+
+            function collapseProject(card) {
+                const thumbnail = card.querySelector('img');
+                const smallSrc = thumbnail.getAttribute('data-small-src');
+                thumbnail.src = smallSrc;
+                card.classList.remove('expanded');
+                document.querySelector('.project-overlay').classList.remove('active');
+            }
         } catch (error) {
             console.error('Error loading projects:', error);
         }
