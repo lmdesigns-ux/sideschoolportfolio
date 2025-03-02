@@ -70,6 +70,9 @@ document.addEventListener('DOMContentLoaded', () => {
                             <h3>${project.title}</h3>
                             <p class="project-description">${project.description}</p>
                             <p class="project-detailed-description">${project.detailedDescription}</p>
+                            ${project.video_url ? `<div class="project-video">
+                                <iframe width="100%" height="400" src="${project.video_url}" frameborder="0" allowfullscreen></iframe>
+                            </div>` : ''}
                             <p class="image-caption">${project.imageCaption}</p>
                             <button class="close-button">×</button>
                         </div>
