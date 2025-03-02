@@ -7,7 +7,6 @@
         "image": "./images/challenge1-thumbnail.jpg",
         "image_large": "./images/challenge1-large.jpg",
         "detailedDescription": "Leveraging the power of GPT models to revolutionize the design project planning process. This innovative approach combines artificial intelligence with design thinking to automate and optimize project scoping, resource allocation, and timeline planning. The result is a dramatic reduction in planning time while maintaining high accuracy and comprehensive coverage of project requirements.",
-        "video_url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
         "imageCaption": "Design Brief Output from ChatGPT"
     },
     {
@@ -53,7 +52,7 @@
         "image": "./images/challenge7-thumbnail.jpg",
         "image_large": "./images/challenge1-large.jpg",
         "detailedDescription": "In Krea I was able to take two images and have Krea generate a video from those images. Then I generated royalty free audio with Suno, and spliced them both together with CapCut. Video available on YouTube",
-        "video_url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "video_url": "https://www.youtube.com/embed/end6PvohNyw?si=hao8ko3ZRowsrGfG",
         "imageCaption": "Still image from video generated with Krea"
     },
     {
@@ -99,7 +98,7 @@
         "image": "./images/challenge12-thumbnail.jpg",
         "image_large": "./images/challenge1-large.jpg",
         "detailedDescription": "Designing in a vacuum is hard, so I received some design feedback by feeding images of my figma designs to ChatGPT and Claude. This allowed me to quickly iterate on my designs.",
-        "video_url": "https://www.loom.com/share/a4b830b309b5446aa79af47b402ec381?sid=e4aedda6-e79f-4f46-baf9-f888fe1a5003",
+        "video_url": "https://www.loom.com/embed/a4b830b309b5446aa79af47b402ec381?sid=3ca64678-00cd-4de7-9b8d-bc3a83e901ae",
         "imageCaption": "Website Re-design based on feedback from Claude and ChatGPT"
     },
     {

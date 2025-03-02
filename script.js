@@ -61,6 +61,10 @@ document.addEventListener('DOMContentLoaded', () => {
             projectsContainer.innerHTML = '';
             
             data.projects.forEach(project => {
+                let videoUrl = project.video_url;
+                if (videoUrl && videoUrl.includes('loom.com/share')) {
+                    videoUrl = videoUrl.replace('share', 'embed');
+                }
                 const projectCard = `
                     <div class="project-card">
                         <div class="project-thumbnail">
@@ -70,8 +74,8 @@ document.addEventListener('DOMContentLoaded', () => {
                             <h3>${project.title}</h3>
                             <p class="project-description">${project.description}</p>
                             <p class="project-detailed-description">${project.detailedDescription}</p>
-                            ${project.video_url ? `<div class="project-video">
-                                <iframe width="100%" height="400" src="${project.video_url}" frameborder="0" allowfullscreen></iframe>
+                            ${videoUrl ? `<div class="project-video">
+                                <iframe width="100%" height="400" src="${videoUrl}" frameborder="0" allowfullscreen></iframe>
                             </div>` : ''}
                             <p class="image-caption">${project.imageCaption}</p>
                             <button class="close-button">×</button>
