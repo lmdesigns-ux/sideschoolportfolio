@@ -1,0 +1,94 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Challenge 1",
+      "description": "A brief description of challenge 1 and its key features.",
+      "image": "https://via.placeholder.com/300x200"
+    },
+    {
+      "id": 2,
+      "title": "Challenge 2",
+      "description": "A brief description of challenge 2 and its key features.",
+      "image": "https://via.placeholder.com/300x200"
+    },
+    {
+        "id": 3,
+        "title": "Challenge 2",
+        "description": "A brief description of challenge 2 and its key features.",
+        "image": "https://via.placeholder.com/300x200"
+    },
+    {
+        "id": 4,
+        "title": "Challenge 1",
+        "description": "A brief description of challenge 1 and its key features.",
+        "image": "https://via.placeholder.com/300x200"
+    },
+    {
+        "id": 5,
+        "title": "Challenge 1",
+        "description": "A brief description of challenge 1 and its key features.",
+        "image": "https://via.placeholder.com/300x200"
+    },
+    {
+        "id": 6,
+        "title": "Challenge 1",
+        "description": "A brief description of challenge 1 and its key features.",
+        "image": "https://via.placeholder.com/300x200"
+    },
+    {
+        "id": 7,
+        "title": "Challenge 1",
+        "description": "A brief description of challenge 1 and its key features.",
+        "image": "https://via.placeholder.com/300x200"
+    },
+    {
+        "id": 8,
+        "title": "Challenge 1",
+        "description": "A brief description of challenge 1 and its key features.",
+        "image": "https://via.placeholder.com/300x200"
+    },
+    {
+        "id": 9,
+        "title": "Challenge 1",
+        "description": "A brief description of challenge 1 and its key features.",
+        "image": "https://via.placeholder.com/300x200"
+    },
+    {
+        "id": 10,
+        "title": "Challenge 1",
+        "description": "A brief description of challenge 1 and its key features.",
+        "image": "https://via.placeholder.com/300x200"
+    },
+    {
+        "id": 11,
+        "title": "Challenge 1",
+        "description": "A brief description of challenge 1 and its key features.",
+        "image": "https://via.placeholder.com/300x200"
+    },
+    {
+        "id": 12,
+        "title": "Challenge 1",
+        "description": "A brief description of challenge 1 and its key features.",
+        "image": "https://via.placeholder.com/300x200"
+    },
+    {
+        "id": 13,
+        "title": "Challenge 1",
+        "description": "A brief description of challenge 1 and its key features.",
+        "image": "https://via.placeholder.com/300x200"
+    },
+    {
+        "id": 14,
+        "title": "Challenge 1",
+        "description": "A brief description of challenge 1 and its key features.",
+        "image": "https://via.placeholder.com/300x200"
+    },
+    {
+        "id": 15,
+        "title": "Challenge 1",
+        "description": "A brief description of challenge 1 and its key features.",
+        "image": "https://via.placeholder.com/300x200"
+    }
+  ]
+}
