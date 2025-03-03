@@ -6,7 +6,7 @@
         "description": "Training a GPT to scope and plan design projects 100x faster.",
         "image": "./images/challenge1-thumbnail.jpg",
         "image_large": "./images/challenge1-large.jpg",
-        "detailedDescription": "Leveraging the power of GPT models to revolutionize the design project planning process. This innovative approach combines artificial intelligence with design thinking to automate and optimize project scoping, resource allocation, and timeline planning. The result is a dramatic reduction in planning time while maintaining high accuracy and comprehensive coverage of project requirements. Try it out for yourself <a href=\"https://chatgpt.com/g/g-67a37c522c608191a0c77ae6aa865a9f-design-project-scoping-sage\">Design Project Scoping Sage</a>.",
+        "detailedDescription": "Leveraging the power of GPT models to revolutionize the design project planning process. This innovative approach combines artificial intelligence with design thinking to automate and optimize project scoping, resource allocation, and timeline planning. The result is a dramatic reduction in planning time while maintaining high accuracy and comprehensive coverage of project requirements. <p>Try it out for yourself at <a href=\"https://chatgpt.com/g/g-67a37c522c608191a0c77ae6aa865a9f-design-project-scoping-sage\">Design Project Scoping Sage</a>.<\/p>",
         "imageCaption": "Design Brief Output from ChatGPT"
     },
     {
@@ -49,8 +49,8 @@
         "id": 6,
         "title": "Challenge 6, 7",
         "description": "Going from image to video in minutes with Krea.",
-        "image": "./images/challenge7-thumbnail.jpg",
-        "image_large": "./images/challenge7-large.jpg",
+        "image": "./images/challenge6-thumbnail.jpg",
+        "image_large": "./images/challenge6-large.jpg",
         "detailedDescription": "In Krea I was able to take two images and have Krea generate a video from those images. Then I generated royalty free audio with Suno, and spliced them both together with CapCut. Video available on YouTube",
         "video_url": "https://www.youtube.com/embed/end6PvohNyw?si=hao8ko3ZRowsrGfG",
         "imageCaption": "Still image from video generated with Krea"
@@ -69,26 +69,17 @@
         "title": "Challenge 9",
         "description": "Using Musho to go from prompt to web design in seconds.",
         "image": "./images/challenge9-thumbnail.jpg",
-        "image_large": "./images/challenge1-large.jpg",
+        "image_large": "./images/challenge9-large.jpg",
         "detailedDescription": "Using Musho I was able to generate a web design fitting the project design brief and bring that design into figma to stylize more.",
         "imageCaption": "FemHealth design generated with Musho"
     },
     {
         "id": 10,
-        "title": "Challenge 10",
-        "description": "Using V7 Go and prompt chaining to hone the brand voice",
+        "title": "Challenge 10 & 11",
+        "description": "Using V7 Go and prompt chaining to superpower my client research.",
         "image": "./images/challenge10-thumbnail.jpg",
         "image_large": "./images/challenge10-large.jpg",
-        "detailedDescription": "I used V7 Go to analyze live website pages from Womed Health and identify the tone of voice, and potential SEO optimizations to be used in the redesign.",
-        "imageCaption": "Screenshot of V7 Go Brand Voice & SEO optimization spreadsheet"
-    },
-    {
-        "id": 11,
-        "title": "Challenge 11",
-        "description": "Using V7 Go and prompt chaining to superpower my client research.",
-        "image": "./images/challenge11-thumbnail.jpg",
-        "image_large": "./images/challenge11-large.jpg",
-        "detailedDescription": "I used V7 Go to save hours on researching potential clients. V7 Go uses a spreadsheet format and allows you to use a new GPT search in each column. This allows for prompt chaining which allows for incredibly powerful search analysis and synthesis.",
+        "detailedDescription": "I leveraged V7 Go to dramatically reduce time spent researching potential clients through its innovative spreadsheet format. The platform enables sequential GPT searches across columns, creating powerful prompt chains for deeper analysis. This methodology delivers comprehensive insights and synthesis while maintaining exceptional efficiency throughout the research process.",
         "imageCaption": "Screenshot of V7 Go Client Profile spreadsheet"
     },
     {
