@@ -242,6 +242,15 @@ body {
 }
 
 .project-card.expanded .project-thumbnail {
+    height: auto;
+    max-height: 70vh;
+}
+
+.project-card.expanded .project-thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    max-height: 70vh;
     height: 40vh;
 }
 
@@ -251,6 +260,7 @@ body {
     padding: 2rem;
     display: flex;
     flex-direction: column;
+    gap: 1.5rem;
 }
 
 .project-card.expanded .project-video {
@@ -267,6 +277,7 @@ body {
 
 .project-card.expanded .project-video {
     display: block;
+    margin-bottom: 0.5rem;
 }
 
 .project-card .project-video iframe {
@@ -281,11 +292,12 @@ body {
     padding: 0.5rem 1rem;
     background: rgba(0, 0, 0, 0.1);
     color: #333;
-    margin: 0.5rem 0;
+    margin: 0;
     font-size: 0.9rem;
     line-height: 1.4;
     text-align: center;
     font-style: italic;
+    order: 1;
 }
 
 .project-card.expanded .image-caption {
@@ -402,7 +414,9 @@ body {
 
 .project-details img {
     max-width: 100%;
-    margin: 1rem 0;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
 }
 
 .image-caption {

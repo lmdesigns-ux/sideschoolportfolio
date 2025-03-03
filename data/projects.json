@@ -14,7 +14,7 @@
         "title": "Challenge 2",
         "description": "Using Gamma to create Pitch Decks in minutes.",
         "image": "./images/challenge2-thumbnail.jpg", 
-        "image_large": "./images/challenge1-large.jpg",
+        "image_large": "./images/challenge2-large.jpg",
         "detailedDescription": "I sped up the pitching process by feeding the design brief to Gamma and generated a pitch deck. With some re-prompting on individual pages and image generation I was able to develop a solid deck.",
         "imageCaption": "FemHealth Pitch Deck generated with Gamma"
     },
@@ -23,7 +23,7 @@
         "title": "Challenge 3",
         "description": "Generating 10s-100s of image ideas in seconds with Krea",
         "image": "./images/challenge3-thumbnail.jpg",
-        "image_large": "./images/challenge1-large.jpg",
+        "image_large": "./images/challenge3-large.jpg",
         "detailedDescription": "Taking cues from the design brief I used image generation in Krea to help determine the look and feel for the new design.",
         "imageCaption": "Image ideas generated with Krea"
     },
@@ -32,7 +32,7 @@
         "title": "Challenge 4",
         "description": "Styling and iterating images to production quality with Krea.",
         "image": "./images/challenge4-thumbnail.jpg",
-        "image_large": "./images/challenge1-large.jpg",
+        "image_large": "./images/challenge4-large.jpg",
         "detailedDescription": "To gain style consistency across images, I used styles in Krea's flux model. Then tweaked until I reached the desired results.",
         "imageCaption": "Consistently styled images with Krea"
     },
@@ -41,7 +41,7 @@
         "title": "Challenge 5",
         "description": "Training new models in Krea to use your own style in Krea.",
         "image": "./images/challenge5-thumbnail.jpg",
-        "image_large": "./images/challenge1-large.jpg",
+        "image_large": "./images/challenge5-large.jpg",
         "detailedDescription": "I fed images to Krea to generate a model to create new styles in Krea that anyone can use. The style can be used at <a href=\"https://www.krea.ai/apps/image/flux?style=e69w1mml0&just_unlocked=true\">Krea Flux Style Page</a>",
         "imageCaption": "Images generated with the trained Krea Model"
     },
@@ -50,7 +50,7 @@
         "title": "Challenge 6, 7",
         "description": "Going from image to video in minutes with Krea.",
         "image": "./images/challenge7-thumbnail.jpg",
-        "image_large": "./images/challenge1-large.jpg",
+        "image_large": "./images/challenge7-large.jpg",
         "detailedDescription": "In Krea I was able to take two images and have Krea generate a video from those images. Then I generated royalty free audio with Suno, and spliced them both together with CapCut. Video available on YouTube",
         "video_url": "https://www.youtube.com/embed/end6PvohNyw?si=hao8ko3ZRowsrGfG",
         "imageCaption": "Still image from video generated with Krea"
@@ -60,7 +60,7 @@
         "title": "Challenge 8",
         "description": "Creating 10s of variants in Figma to ideate quickly.",
         "image": "./images/challenge8-thumbnail.jpg",
-        "image_large": "./images/challenge1-large.jpg",
+        "image_large": "./images/challenge8-large.jpg",
         "detailedDescription": "Using Figma AI and plugins I was able to quickly develop multiple variants in images, and taglines.",
         "imageCaption": "Ad Varients generated with Figma"
     },
@@ -78,7 +78,7 @@
         "title": "Challenge 10",
         "description": "Using V7 Go and prompt chaining to hone the brand voice",
         "image": "./images/challenge10-thumbnail.jpg",
-        "image_large": "./images/challenge1-large.jpg",
+        "image_large": "./images/challenge10-large.jpg",
         "detailedDescription": "I used V7 Go to analyze live website pages from Womed Health and identify the tone of voice, and potential SEO optimizations to be used in the redesign.",
         "imageCaption": "Screenshot of V7 Go Brand Voice & SEO optimization spreadsheet"
     },
@@ -87,7 +87,7 @@
         "title": "Challenge 11",
         "description": "Using V7 Go and prompt chaining to superpower my client research.",
         "image": "./images/challenge11-thumbnail.jpg",
-        "image_large": "./images/challenge1-large.jpg",
+        "image_large": "./images/challenge11-large.jpg",
         "detailedDescription": "I used V7 Go to save hours on researching potential clients. V7 Go uses a spreadsheet format and allows you to use a new GPT search in each column. This allows for prompt chaining which allows for incredibly powerful search analysis and synthesis.",
         "imageCaption": "Screenshot of V7 Go Client Profile spreadsheet"
     },
@@ -96,7 +96,7 @@
         "title": "Challenge 12",
         "description": "Getting design feedback with ChatGPT and Claude",
         "image": "./images/challenge12-thumbnail.jpg",
-        "image_large": "./images/challenge1-large.jpg",
+        "image_large": "./images/challenge12-large.jpg",
         "detailedDescription": "Designing in a vacuum is hard, so I received some design feedback by feeding images of my figma designs to ChatGPT and Claude. This allowed me to quickly iterate on my designs.",
         "video_url": "https://www.loom.com/embed/a4b830b309b5446aa79af47b402ec381?sid=3ca64678-00cd-4de7-9b8d-bc3a83e901ae",
         "imageCaption": "Website Re-design based on feedback from Claude and ChatGPT"
@@ -106,7 +106,7 @@
         "title": "Challenge 13",
         "description": "From design to protoype with Figma and Lovable",
         "image": "./images/challenge13-thumbnail.jpg",
-        "image_large": "./images/challenge1-large.jpg",
+        "image_large": "./images/challenge13-large.jpg",
         "detailedDescription": "I fed the design brief to Gamma and generated a pitch deck. With some re-prompting on individual pages and image generation I was able to develop a solid deck.",
         "imageCaption": "Menstrual Cycle tracking app generated with Lovable"
     },
@@ -115,7 +115,7 @@
         "title": "Challenge 14",
         "description": "Auto answering important emails with Lindy to speed up my administrative workflow.",
         "image": "./images/challenge14-thumbnail.jpg",
-        "image_large": "./images/challenge1-large.jpg",
+        "image_large": "./images/challenge14-large.jpg",
         "detailedDescription": "Within Lindy I was able to setup an automation that reads my emails and determines if they meet specific criteria. From there Lindy will auto respond by generating a message from a Knowledgebase of my choosing.",
         "imageCaption": "Email Auto Response from Lindy"
     },
@@ -124,7 +124,7 @@
         "title": "Challenge 15",
         "description": "A portfolio of challenges generated with Trae AI development assistant.",
         "image": "./images/challenge15-thumbnail.jpg",
-        "image_large": "./images/challenge1-large.jpg",
+        "image_large": "./images/challenge15-large.jpg",
         "detailedDescription": "Using prompting in Trae AI combined with my own programming knowledge, I was able to generate this website with HTML, CSS, and JaveScript.",
         "imageCaption": "This website in development"
     }
