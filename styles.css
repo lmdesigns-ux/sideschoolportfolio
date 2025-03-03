@@ -65,7 +65,7 @@ body {
     align-items: center;
     text-align: center;
     padding: 0 2rem;
-    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    background: linear-gradient(135deg, #fff8f0 0%, #f4d06f 100%);
     position: relative;
 }
 
@@ -77,13 +77,13 @@ body {
 .hero-title {
     font-size: 3.5rem;
     margin-bottom: 1rem;
-    color: #2c3e50;
+    color: #392f5a;
 }
 
 .hero-subtitle {
     font-size: 1.5rem;
     margin-bottom: 2rem;
-    color: #34495e;
+    color: #160f29;
 }
 
 .hero-cta {
@@ -98,14 +98,14 @@ body {
     text-decoration: none;
     font-weight: bold;
     transition: transform 0.3s ease;
-    background: #3498db;
+    background: #9dd9d2;
     color: white;
 }
 
 .cta-button.secondary {
     background: transparent;
-    border: 2px solid #3498db;
-    color: #3498db;
+    border: 2px solid #9dd9d2;
+    color: #9dd9d2;
 }
 
 .cta-button:hover {
