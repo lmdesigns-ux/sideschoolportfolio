@@ -6,6 +6,8 @@
     <title>Portfolio | Welcome</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="three.r134.min.js"></script>
+    <script src="vanta.fog.min.js"></script>
 </head>
 <body>
     <nav class="navbar">
@@ -74,5 +76,21 @@
         </div>
     </section>
     <script src="script.js"></script>
+    <script>
+    VANTA.FOG({
+        el: "#home",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        highlightColor: 0xf0bf53,
+        midtoneColor: 0xfc7a08,
+        lowlightColor: 0x2b0eb1,
+        baseColor: 0xfff3d5,
+        blurFactor: 0.70,
+        zoom: 2.00
+    })
+    </script>
 </body>
 </html>
