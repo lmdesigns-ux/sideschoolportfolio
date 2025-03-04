@@ -98,7 +98,7 @@
         "description": "From design to protoype with Figma and Lovable",
         "image": "./images/challenge13-thumbnail.jpg",
         "image_large": "./images/challenge13-large.jpg",
-        "detailedDescription": "I fed the design brief to Gamma and generated a pitch deck. With some re-prompting on individual pages and image generation I was able to develop a solid deck.",
+        "detailedDescription": "I created a design prototype in Musho, then prompted claude to write the specifications I would need to give an engineer to develop the site. I then fed those specifications and designs to Lovable to generate this app prototype.",
         "imageCaption": "Menstrual Cycle tracking app generated with Lovable"
     },
     {
