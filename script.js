@@ -143,4 +143,28 @@ document.addEventListener('DOMContentLoaded', () => {
             console.error('Error loading projects:', error);
         }
     }
+});  
+document.addEventListener('DOMContentLoaded', function() {
+    // Contact form submission
+    const contactForm = document.getElementById('contactForm');
+    
+    if (contactForm) {
+        contactForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const formData = {
+                name: document.getElementById('name').value,
+                email: document.getElementById('email').value,
+                subject: document.getElementById('subject').value,
+                message: document.getElementById('message').value,
+                to: 'lmdesigns@protonmail.com'
+            };
+            
+            // Here you would typically send the form data to your backend
+            // For now, we'll just log it and show a success message
+            console.log('Form submitted:', formData);
+            alert('Thank you for your message! We\'ll get back to you soon.');
+            contactForm.reset();
+        });
+    }
 });
