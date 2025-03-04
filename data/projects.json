@@ -117,7 +117,7 @@
         "image": "./images/challenge15-thumbnail.jpg",
         "image_large": "./images/challenge15-large.jpg",
         "detailedDescription": "Using prompting in Trae AI combined with my own programming knowledge, I was able to generate this website with HTML, CSS, and JaveScript.",
-        "imageCaption": "This website in development"
+        "imageCaption": "This website"
     }
   ]
 }
