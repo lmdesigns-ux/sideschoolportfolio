@@ -15,8 +15,9 @@
     --background-color-light: #fff;
     --background-color-dark: #f9f9f9;
     --background-color-transparency: rgba(255, 255, 255, 0.95);
-    --shadow-color-one: rgba(0, 0, 0, 0.1);
-    --shadow-color-two: rgba(0, 0, 0, 0.2);
+    --shadow-color-tenth: rgba(0, 0, 0, 0.1);
+    --shadow-color-twentieth: rgba(0, 0, 0, 0.2);
+    --shadow-color-eightieth: rgba(0,0,0,0.8) ;
 }
 
 body {
@@ -38,7 +39,7 @@ body {
     justify-content: space-between;
     align-items: center;
     z-index: 1000;
-    box-shadow: 0 2px 5px var(--shadow-color-one);
+    box-shadow: 0 2px 5px var(--shadow-color-tenth);
 }
 
 .nav-brand {
@@ -206,13 +207,13 @@ body {
     background: var(--background-color-light);
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 3px 10px var(--shadow-color-one);
+    box-shadow: 0 3px 10px var(--shadow-color-tenth);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .project-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 5px 15px var(--shadow-color-two);
+    box-shadow: 0 5px 15px var(--shadow-color-twentieth);
 }
 
 .project-thumbnail {
@@ -241,6 +242,64 @@ body {
 .project-card p {
     padding: 0 1.5rem 1.5rem;
     font-size: 0.9rem;
+}
+
+.project-card .project-video {
+    display: none;
+    width: 100%;
+    max-width: 800px;
+    margin: 2rem auto;
+}
+
+.project-card .project-video iframe {
+    width: 100%;
+    height: 450px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px var(--shadow-color-tenth);
+}
+.project-card .image-caption {
+    display: none;
+    padding: 0.5rem 1rem;
+    background: var(--secondary-color-light);
+    color: var(--tertiary-color-light);
+    margin: 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    text-align: center;
+    font-style: italic;
+    order: 1;
+}
+
+.project-card .close-button {
+    display: none;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: var(--tertiary-color-light);
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 2px 5px var(--shadow-color-twentieth);
+    z-index: 2001;
+}
+
+.project-card .project-description {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    color: var(--tertiary-color-dark);
+}
+
+.project-card .project-detailed-description {
+    display: none;
+    font-size: 1rem;
+    line-height: 1.8;
+    color:var(--tertiary-color-lighter);
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #eee;
 }
 
 /* Expanded Project Card Styles */
@@ -289,36 +348,9 @@ body {
     margin-bottom: 2rem;
 }
 
-.project-card .project-video {
-    display: none;
-    width: 100%;
-    max-width: 800px;
-    margin: 2rem auto;
-}
-
 .project-card.expanded .project-video {
     display: block;
     margin-bottom: 0.5rem;
-}
-
-.project-card .project-video iframe {
-    width: 100%;
-    height: 450px;
-    border: none;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px var(--shadow-color-one);
-}
-.project-card .image-caption {
-    display: none;
-    padding: 0.5rem 1rem;
-    background: var(--secondary-color-light);
-    color: var(--tertiary-color-light);
-    margin: 0;
-    font-size: 0.9rem;
-    line-height: 1.4;
-    text-align: center;
-    font-style: italic;
-    order: 1;
 }
 
 .project-card.expanded .image-caption {
@@ -331,39 +363,9 @@ body {
     to { opacity: 1; }
 }
 
-.project-card .project-description {
-    font-size: 1.1rem;
-    margin-bottom: 1.5rem;
-    color: var(--tertiary-color-dark);
-}
-
-.project-card .project-detailed-description {
-    display: none;
-    font-size: 1rem;
-    line-height: 1.8;
-    color:var(--tertiary-color-lighter);
-    margin-top: 1.5rem;
-    padding-top: 1.5rem;
-    border-top: 1px solid #eee;
-}
 
 .project-card.expanded .project-detailed-description {
     display: block;
-}
-
-.project-card .close-button {
-    display: none;
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    background: var(--tertiary-color-light);
-    border: none;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    cursor: pointer;
-    box-shadow: 0 2px 5px var(--shadow-color-two);
-    z-index: 2001;
 }
 
 .project-card.expanded .close-button {
@@ -379,7 +381,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,0.8);
+    background: --shadow-color-eightieth;
     z-index: 1999;
 }
 
@@ -402,7 +404,7 @@ body {
     background: var(--background-color-dark);
     padding: 2rem;
     border-radius: 10px;
-    box-shadow: 0 3px 10px var(--shadow-color-one);
+    box-shadow: 0 3px 10px var(--shadow-color-tenth);
 }
 
 .form-group {
