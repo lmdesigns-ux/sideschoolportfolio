@@ -182,6 +182,11 @@ body {
     }
 }
 
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
 /* Projects Section */
 .projects {
     padding: 4rem 2rem;
@@ -325,7 +330,6 @@ body {
 }
 
 .project-card.expanded .image-caption {
-    order: 1;
     display: block;
     animation: fadeIn 0.3s ease;
     padding: 0.5rem 1rem;
@@ -336,11 +340,6 @@ body {
     font-style: italic;
     background: var(--secondary-color-light);
     color: var(--tertiary-color-light);
-}
-
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
 }
 
 .project-card.expanded .project-detailed-description {
@@ -359,6 +358,7 @@ body {
     height: 40px;
     border: none;
     border-radius: 50%;
+    color: var(--secondary-color-light);
     background: var(--tertiary-color-light);
     box-shadow: 0 2px 5px var(--shadow-color-twentieth);
     z-index: 2001;
