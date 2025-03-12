@@ -58,7 +58,7 @@
         "image_large": "./images/challenge6-large.jpg",
         "detailedDescription": "In Krea I was able to take two images and have Krea generate a video from those images. Then I generated royalty free audio with Suno, and spliced them both together with CapCut. Video available on YouTube",
         "video_url": "https://www.youtube.com/embed/end6PvohNyw?si=hao8ko3ZRowsrGfG",
-        "imageCaption": "Still image from video generated with Krea",
+        "imageCaption": "Still image used to generate video with Krea",
         "learnings":""
     },
     {
