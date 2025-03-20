@@ -78,6 +78,21 @@ document.addEventListener('DOMContentLoaded', () => {
                             ${videoUrl ? `<div class="project-video">
                                 <iframe width="100%" height="400" src="${videoUrl}" frameborder="0" allowfullscreen></iframe>
                             </div>` : ''}
+                            <div class="project-metadata">
+                                <div class="metadata-item">
+                                    <h4>Tools</h4>
+                                    <p>${project.tools}</p>
+                                </div>
+                                <div class="metadata-item">
+                                    <h4>Usage</h4>
+                                    <p>${project.usage}</p>
+                                </div>
+                                ${project.learnings ? `
+                                <div class="metadata-item">
+                                    <h4>Learnings</h4>
+                                    <p>${project.learnings}</p>
+                                </div>` : ''}
+                            </div>
                             <button class="close-button">×</button>
                         </div>
                     </div>

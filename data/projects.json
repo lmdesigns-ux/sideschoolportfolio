@@ -8,7 +8,7 @@
         "imageLarge": "./images/challenge1-large.jpg",
         "imageCaption": "Design Brief Output from ChatGPT",
         "tools":"ChatGPT",
-        "usage":"Define, Scope, Plan",
+        "usage":"Defining, Scoping, Planning",
         "challengeDescription": "Leveraging the power of GPT models to revolutionize the design project planning process. This innovative approach combines artificial intelligence with design thinking to automate and optimize project scoping, resource allocation, and timeline planning. The result is a dramatic reduction in planning time while maintaining high accuracy and comprehensive coverage of project requirements. <br>Try it out for yourself at <a href=\"https://chatgpt.com/g/g-67a37c522c608191a0c77ae6aa865a9f-design-project-scoping-sage\">Design Project Scoping Sage</a>.",
         "learnings":""
     },
