@@ -10,7 +10,7 @@
         "tools":"ChatGPT",
         "usage":"Defining, Scoping, Planning",
         "challengeDescription": "Leveraging the power of GPT models to revolutionize the design project planning process. This innovative approach combines artificial intelligence with design thinking to automate and optimize project scoping, resource allocation, and timeline planning. The result is a dramatic reduction in planning time while maintaining high accuracy and comprehensive coverage of project requirements. <br>Try it out for yourself at <a href=\"https://chatgpt.com/g/g-67a37c522c608191a0c77ae6aa865a9f-design-project-scoping-sage\">Design Project Scoping Sage</a>.",
-        "learnings":""
+        "learnings":"The prompt you use to create the design brief is important as a vague prompt will provide inconsistent results. To acheive a high level of specificity I created a prompt then fed that prompt to ChatGPT to generate the design brief. I then fed that design brief to ChatGPT and had it refine the prompt. The refined prompt was then used to create the GPT that generated the design brief."
     },
     {
         "id": 2,
@@ -22,7 +22,7 @@
         "tools":"Gamma",
         "usage":"Pitching, Presenting",
         "challengeDescription": "I sped up the pitching process by feeding the design brief to Gamma and generated a pitch deck. With some re-prompting on individual pages and image generation I was able to develop a solid deck.",
-        "learnings":""
+        "learnings":"There were a few drawbacks in using Gamma to create the deck. First there were limited styled templates to start with so in the class, many of our decks ended up looking very similar. Secondly, trying to use the inlcuded AI generation made it hard to get images that were visually consistent. Lastly, I found it difficult to manually adjust layouts without throwing the entire slide off."
     },
     {
         "id": 3,
@@ -34,7 +34,7 @@
         "tools":"Krea",
         "usage":"Ideation",
         "challengeDescription": "Taking cues from the design brief I used image generation in Krea to help determine the look and feel for the new design.",
-        "learnings":""
+        "learnings":"It's helpful to Adjust prompt specificity based on your needs: use vague prompts to generate multiple ideas, or detailed prompts to refine specific concepts. Additionally, ask for variations in different styles to expand your options."
     },
     {
         "id": 4,
@@ -46,7 +46,7 @@
         "tools":"Krea",
         "usage":"Styling",
         "challengeDescription": "To gain style consistency across images, I used styles in Krea's flux model. Then tweaked until I reached the desired results.",
-        "learnings":""
+        "learnings":"Once you've found a style you like, you can use it as a base picture for the flux model and alter how much following pictures adhere to it. Using the base picture and a new prompt allows you to create new pictures in the same styling so you can quickly create visually consistent collections for a website or product."
     },
     {
         "id": 5,
