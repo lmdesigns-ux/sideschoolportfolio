@@ -68,13 +68,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 const projectCard = `
                     <div class="project-card">
                         <div class="project-thumbnail">
-                            <img src="${project.image}" data-small-src="${project.image}" data-large-src="${project.image_large}" alt="${project.title}">
+                            <img src="${project.image}" data-small-src="${project.image}" data-large-src="${project.imageLarge}" alt="${project.title}">
                             <p class="image-caption">${project.imageCaption}</p>
                         </div>
                         <div class="project-content">
                             <h3>${project.title}</h3>
                             <p class="project-description">${project.description}</p>
-                            <p class="project-detailed-description">${project.detailedDescription}</p>
+                            <p class="project-detailed-description">${project.challengeDescription}</p>
                             ${videoUrl ? `<div class="project-video">
                                 <iframe width="100%" height="400" src="${videoUrl}" frameborder="0" allowfullscreen></iframe>
                             </div>` : ''}

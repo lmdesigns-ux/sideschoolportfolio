@@ -5,9 +5,11 @@
         "title": "Challenge 1",
         "description": "Training a GPT to scope and plan design projects 100x faster.",
         "image": "./images/challenge1-thumbnail.jpg",
-        "image_large": "./images/challenge1-large.jpg",
-        "detailedDescription": "Leveraging the power of GPT models to revolutionize the design project planning process. This innovative approach combines artificial intelligence with design thinking to automate and optimize project scoping, resource allocation, and timeline planning. The result is a dramatic reduction in planning time while maintaining high accuracy and comprehensive coverage of project requirements. <br>Try it out for yourself at <a href=\"https://chatgpt.com/g/g-67a37c522c608191a0c77ae6aa865a9f-design-project-scoping-sage\">Design Project Scoping Sage</a>.",
+        "imageLarge": "./images/challenge1-large.jpg",
         "imageCaption": "Design Brief Output from ChatGPT",
+        "tools":"ChatGPT",
+        "usage":"Define, Scope, Plan",
+        "challengeDescription": "Leveraging the power of GPT models to revolutionize the design project planning process. This innovative approach combines artificial intelligence with design thinking to automate and optimize project scoping, resource allocation, and timeline planning. The result is a dramatic reduction in planning time while maintaining high accuracy and comprehensive coverage of project requirements. <br>Try it out for yourself at <a href=\"https://chatgpt.com/g/g-67a37c522c608191a0c77ae6aa865a9f-design-project-scoping-sage\">Design Project Scoping Sage</a>.",
         "learnings":""
     },
     {
@@ -15,9 +17,11 @@
         "title": "Challenge 2",
         "description": "Using Gamma to create Pitch Decks in minutes.",
         "image": "./images/challenge2-thumbnail.jpg", 
-        "image_large": "./images/challenge2-large.jpg",
-        "detailedDescription": "I sped up the pitching process by feeding the design brief to Gamma and generated a pitch deck. With some re-prompting on individual pages and image generation I was able to develop a solid deck.",
+        "imageLarge": "./images/challenge2-large.jpg",
         "imageCaption": "FemHealth Pitch Deck generated with Gamma",
+        "tools":"Gamma",
+        "usage":"Pitching, Presenting",
+        "challengeDescription": "I sped up the pitching process by feeding the design brief to Gamma and generated a pitch deck. With some re-prompting on individual pages and image generation I was able to develop a solid deck.",
         "learnings":""
     },
     {
@@ -25,9 +29,11 @@
         "title": "Challenge 3",
         "description": "Generating 10s-100s of image ideas in seconds with Krea",
         "image": "./images/challenge3-thumbnail.jpg",
-        "image_large": "./images/challenge3-large.jpg",
-        "detailedDescription": "Taking cues from the design brief I used image generation in Krea to help determine the look and feel for the new design.",
+        "imageLarge": "./images/challenge3-large.jpg",
         "imageCaption": "Image ideas generated with Krea",
+        "tools":"Krea",
+        "usage":"Ideation",
+        "challengeDescription": "Taking cues from the design brief I used image generation in Krea to help determine the look and feel for the new design.",
         "learnings":""
     },
     {
@@ -35,9 +41,11 @@
         "title": "Challenge 4",
         "description": "Styling and iterating images to production quality with Krea.",
         "image": "./images/challenge4-thumbnail.jpg",
-        "image_large": "./images/challenge4-large.jpg",
-        "detailedDescription": "To gain style consistency across images, I used styles in Krea's flux model. Then tweaked until I reached the desired results.",
+        "imageLarge": "./images/challenge4-large.jpg",
         "imageCaption": "Consistently styled images with Krea",
+        "tools":"Krea",
+        "usage":"Styling",
+        "challengeDescription": "To gain style consistency across images, I used styles in Krea's flux model. Then tweaked until I reached the desired results.",
         "learnings":""
     },
     {
@@ -45,9 +53,11 @@
         "title": "Challenge 5",
         "description": "Training new models in Krea to use your own style in Krea.",
         "image": "./images/challenge5-thumbnail.jpg",
-        "image_large": "./images/challenge5-large.jpg",
-        "detailedDescription": "I fed images to Krea to generate a model to create new styles in Krea that anyone can use. The style can be used at <a href=\"https://www.krea.ai/apps/image/flux?style=e69w1mml0&just_unlocked=true\">Krea Flux Style Page</a>",
+        "imageLarge": "./images/challenge5-large.jpg",
         "imageCaption": "Images generated with the trained Krea Model",
+        "tools":"Krea",
+        "usage":"Replication, Mass production",
+        "challengeDescription": "I fed images to Krea to generate a model to create new styles in Krea that anyone can use. The style can be used at <a href=\"https://www.krea.ai/apps/image/flux?style=e69w1mml0&just_unlocked=true\">Krea Flux Style Page</a>",
         "learnings":""
     },
     {
@@ -55,10 +65,12 @@
         "title": "Challenge 6, 7",
         "description": "Going from image to video in minutes with Krea.",
         "image": "./images/challenge6-thumbnail.jpg",
-        "image_large": "./images/challenge6-large.jpg",
-        "detailedDescription": "In Krea I was able to take two images and have Krea generate a video from those images. Then I generated royalty free audio with Suno, and spliced them both together with CapCut. Video available on YouTube",
-        "video_url": "https://www.youtube.com/embed/end6PvohNyw?si=hao8ko3ZRowsrGfG",
+        "imageLarge": "./images/challenge6-large.jpg",
         "imageCaption": "Still image used to generate video with Krea",
+        "tools":"Krea, Suno, CapCut",
+        "usage":"Video Creation, Music Creation, Audio and Video Editing",
+        "challengeDescription": "In Krea I was able to take two images and have Krea generate a video from those images. Then I generated royalty free audio with Suno, and spliced them both together with CapCut. Video available on YouTube",
+        "video_url": "https://www.youtube.com/embed/end6PvohNyw?si=hao8ko3ZRowsrGfG",
         "learnings":""
     },
     {
@@ -66,9 +78,11 @@
         "title": "Challenge 8",
         "description": "Creating 10s of variants in Figma to ideate quickly.",
         "image": "./images/challenge8-thumbnail.jpg",
-        "image_large": "./images/challenge8-large.jpg",
-        "detailedDescription": "Using Figma AI and plugins I was able to quickly develop multiple variants in images, and taglines.",
+        "imageLarge": "./images/challenge8-large.jpg",
         "imageCaption": "Ad Varients generated with Figma",
+        "tools":"Figma AI, Plugins",
+        "usage":"Marketing, Copywriting",
+        "challengeDescription": "Using Figma AI and plugins I was able to quickly develop multiple variants in images, and taglines.",
         "learnings":""
     },
     {
@@ -76,9 +90,11 @@
         "title": "Challenge 9",
         "description": "Using Musho to go from prompt to web design in seconds.",
         "image": "./images/challenge9-thumbnail.jpg",
-        "image_large": "./images/challenge9-large.jpg",
-        "detailedDescription": "Using Musho I was able to generate a web design fitting the project design brief and bring that design into figma to stylize more.",
+        "imageLarge": "./images/challenge9-large.jpg",
         "imageCaption": "FemHealth design generated with Musho",
+        "tools":"Musho",
+        "usage":"Prototyping",
+        "challengeDescription": "Using Musho I was able to generate a web design fitting the project design brief and bring that design into figma to stylize more.",
         "learnings":""
     },
     {
@@ -86,9 +102,11 @@
         "title": "Challenge 10 & 11",
         "description": "Using V7 Go and prompt chaining to superpower my client research.",
         "image": "./images/challenge10-thumbnail.jpg",
-        "image_large": "./images/challenge10-large.jpg",
-        "detailedDescription": "I leveraged V7 Go to dramatically reduce time spent researching potential clients through its innovative spreadsheet format. The platform enables sequential GPT searches across columns, creating powerful prompt chains for deeper analysis. This methodology delivers comprehensive insights and synthesis while maintaining exceptional efficiency throughout the research process.",
+        "imageLarge": "./images/challenge10-large.jpg",
         "imageCaption": "Screenshot of V7 Go Client Profile spreadsheet",
+        "tools":"V7 Go",
+        "usage":"Research",
+        "challengeDescription": "I leveraged V7 Go to dramatically reduce time spent researching potential clients through its innovative spreadsheet format. The platform enables sequential GPT searches across columns, creating powerful prompt chains for deeper analysis. This methodology delivers comprehensive insights and synthesis while maintaining exceptional efficiency throughout the research process.",
         "learnings":""
     },
     {
@@ -96,10 +114,12 @@
         "title": "Challenge 12",
         "description": "Getting design feedback with ChatGPT and Claude",
         "image": "./images/challenge12-thumbnail.jpg",
-        "image_large": "./images/challenge12-large.jpg",
-        "detailedDescription": "Designing in a vacuum is hard, so I received some design feedback by feeding images of my figma designs to ChatGPT and Claude. This allowed me to quickly iterate on my designs.",
-        "video_url": "https://www.loom.com/embed/a4b830b309b5446aa79af47b402ec381?sid=3ca64678-00cd-4de7-9b8d-bc3a83e901ae",
+        "imageLarge": "./images/challenge12-large.jpg",
         "imageCaption": "Website Re-design based on feedback from Claude and ChatGPT",
+        "tools":"ChatGPT, Claude",
+        "usage":"Design Critique, Feedback, Design Iteration",
+        "challengeDescription": "Designing in a vacuum is hard, so I received some design feedback by feeding images of my figma designs to ChatGPT and Claude. This allowed me to quickly iterate on my designs.",
+        "video_url": "https://www.loom.com/embed/a4b830b309b5446aa79af47b402ec381?sid=3ca64678-00cd-4de7-9b8d-bc3a83e901ae",
         "learnings":""
     },
     {
@@ -107,9 +127,11 @@
         "title": "Challenge 13",
         "description": "From design to protoype with Figma and Lovable",
         "image": "./images/challenge13-thumbnail.jpg",
-        "image_large": "./images/challenge13-large.jpg",
-        "detailedDescription": "I created a design prototype in Musho, then prompted claude to write the specifications I would need to give an engineer to develop the site. I then fed those specifications and designs to Lovable to generate this app prototype.",
+        "imageLarge": "./images/challenge13-large.jpg",
         "imageCaption": "Menstrual Cycle tracking app generated with Lovable",
+        "tools":"Figma, Lovable",
+        "usage":"Prototyping, Development, Hosting",
+        "challengeDescription": "I created a design prototype in Musho, then prompted claude to write the specifications I would need to give an engineer to develop the site. I then fed those specifications and designs to Lovable to generate this app prototype.",
         "learnings":""
     },
     {
@@ -117,9 +139,11 @@
         "title": "Challenge 14",
         "description": "Auto answering important emails with Lindy to speed up my administrative workflow.",
         "image": "./images/challenge14-thumbnail.jpg",
-        "image_large": "./images/challenge14-large.jpg",
-        "detailedDescription": "Within Lindy I was able to setup an automation that reads my emails and determines if they meet specific criteria. From there Lindy will auto respond by generating a message from a Knowledgebase of my choosing.",
+        "imageLarge": "./images/challenge14-large.jpg",
         "imageCaption": "Email Auto Response from Lindy",
+        "tools":"Lindy",
+        "usage":"Automation",
+        "challengeDescription": "Within Lindy I was able to setup an automation that reads my emails and determines if they meet specific criteria. From there Lindy will auto respond by generating a message from a Knowledgebase of my choosing.",
         "learnings":""
     },
     {
@@ -127,9 +151,11 @@
         "title": "Challenge 15",
         "description": "A portfolio of challenges generated with Trae AI development assistant.",
         "image": "./images/challenge15-thumbnail.jpg",
-        "image_large": "./images/challenge15-large.jpg",
-        "detailedDescription": "Using prompting in Trae AI combined with my own programming knowledge, I was able to generate this website with HTML, CSS, and JaveScript.",
+        "imageLarge": "./images/challenge15-large.jpg",
         "imageCaption": "This website",
+        "tools":"Trae AI",
+        "usage":"Development",
+        "challengeDescription": "Using prompting in Trae AI combined with my own programming knowledge, I was able to generate this website with HTML, CSS, and JaveScript.",
         "learnings":""
     }
   ]
