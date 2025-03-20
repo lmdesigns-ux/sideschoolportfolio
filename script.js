@@ -74,7 +74,6 @@ document.addEventListener('DOMContentLoaded', () => {
                         <div class="project-content">
                             <h3>${project.title}</h3>
                             <p class="project-description">${project.description}</p>
-                            <p class="project-detailed-description">${project.challengeDescription}</p>
                             ${videoUrl ? `<div class="project-video">
                                 <iframe width="100%" height="400" src="${videoUrl}" frameborder="0" allowfullscreen></iframe>
                             </div>` : ''}
@@ -87,13 +86,16 @@ document.addEventListener('DOMContentLoaded', () => {
                                     <h4>Usage</h4>
                                     <p>${project.usage}</p>
                                 </div>
-                                ${project.learnings ? `
+                                <div class="metadata-item">
+                                    <h4>The Task</h4>
+                                    <p>${project.challengeDescription}</p>
+                                </div>
                                 <div class="metadata-item">
                                     <h4>Learnings</h4>
                                     <p>${project.learnings}</p>
-                                </div>` : ''}
+                                </div>
                             </div>
-                            <button class="close-button">×</button>
+                            <button class="close-button">X</button>
                         </div>
                     </div>
                 `;
