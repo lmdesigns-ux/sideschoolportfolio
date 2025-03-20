@@ -58,7 +58,7 @@
         "tools":"Krea",
         "usage":"Replication, Mass production",
         "challengeDescription": "I fed images to Krea to generate a model to create new styles in Krea that anyone can use. The style can be used at <a href=\"https://www.krea.ai/apps/image/flux?style=e69w1mml0&just_unlocked=true\">Krea Flux Style Page</a>",
-        "learnings":""
+        "learnings":"Training Krea with copyrighted material is not allowed in the Terms and Conditions and can result in your account removal. If you train with your own material and allow it to be public it can create many clones of your work on the internet and in the world."
     },
     {
         "id": 6,
@@ -71,7 +71,7 @@
         "usage":"Video Creation, Music Creation, Audio and Video Editing",
         "challengeDescription": "In Krea I was able to take two images and have Krea generate a video from those images. Then I generated royalty free audio with Suno, and spliced them both together with CapCut. Video available on YouTube",
         "video_url": "https://www.youtube.com/embed/end6PvohNyw?si=hao8ko3ZRowsrGfG",
-        "learnings":""
+        "learnings":"Suno created a very convincing song with lyrics and vocals from seemingly thin air. While this is amazing from a design productivity and price standpoint, it leaves me with much concern for where Suno derived the training material and how creators were compensated. "
     },
     {
         "id": 8,
@@ -83,7 +83,7 @@
         "tools":"Figma AI, Plugins",
         "usage":"Marketing, Copywriting",
         "challengeDescription": "Using Figma AI and plugins I was able to quickly develop multiple variants in images, and taglines.",
-        "learnings":""
+        "learnings":"Generating new images and taglines using Figma AI was easier than generating new layouts. When I prompted the AI to generate a new layout, it generated an entirely different design. More specifically, I wanted new layouts for an ad and it generated a weather app design."
     },
     {
         "id": 9,
