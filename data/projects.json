@@ -95,7 +95,7 @@
         "tools":"Musho",
         "usage":"Prototyping",
         "challengeDescription": "Using Musho I was able to generate a web design fitting the project design brief and bring that design into figma to stylize more.",
-        "learnings":""
+        "learnings":"I attempted to use Relume first to generate the Inforamtion Architecture and design but I found it slightly difficult to adjust on the free version. Musho generated a usable design quickly but didn't provide a sitemap like Relume. "
     },
     {
         "id": 10,
@@ -107,7 +107,7 @@
         "tools":"V7 Go",
         "usage":"Research",
         "challengeDescription": "I leveraged V7 Go to dramatically reduce time spent researching potential clients through its innovative spreadsheet format. The platform enables sequential GPT searches across columns, creating powerful prompt chains for deeper analysis. This methodology delivers comprehensive insights and synthesis while maintaining exceptional efficiency throughout the research process.",
-        "learnings":""
+        "learnings":"V7 Go's chaining ability is game changing. It allows for quick automation and information gathering. However, it is limited to the accuracy of the Ai model used. It can quickly provide factual or fictional information. Therefore, it does not remove the need for careful checking of the information provided to guard against hallucinations."
     },
     {
         "id": 12,
@@ -120,7 +120,7 @@
         "usage":"Design Critique, Feedback, Design Iteration",
         "challengeDescription": "Designing in a vacuum is hard, so I received some design feedback by feeding images of my figma designs to ChatGPT and Claude. This allowed me to quickly iterate on my designs.",
         "video_url": "https://www.loom.com/embed/a4b830b309b5446aa79af47b402ec381?sid=3ca64678-00cd-4de7-9b8d-bc3a83e901ae",
-        "learnings":""
+        "learnings":"I found most of the feedback very helpful and would use it again for heuristical and best practice feedback. I do not feel like its a replacement for human perception, and user feedback. It will guide you to usable interfaces but not to innovative interfaces."
     },
     {
         "id": 13,
@@ -129,10 +129,10 @@
         "image": "./images/challenge13-thumbnail.jpg",
         "imageLarge": "./images/challenge13-large.jpg",
         "imageCaption": "Menstrual Cycle tracking app generated with Lovable",
-        "tools":"Figma, Lovable",
+        "tools":"Musho, Claude, Lovable",
         "usage":"Prototyping, Development, Hosting",
         "challengeDescription": "I created a design prototype in Musho, then prompted claude to write the specifications I would need to give an engineer to develop the site. I then fed those specifications and designs to Lovable to generate this app prototype.",
-        "learnings":""
+        "learnings":"This flow is amazingly fast, and I'm impressed with the results. The one difficulty I found was in getting the design interactions fully functional. There maybe a way to do this with Lovable, but I didn't have time to figure it out."
     },
     {
         "id": 14,
@@ -144,7 +144,7 @@
         "tools":"Lindy",
         "usage":"Automation",
         "challengeDescription": "Within Lindy I was able to setup an automation that reads my emails and determines if they meet specific criteria. From there Lindy will auto respond by generating a message from a Knowledgebase of my choosing.",
-        "learnings":""
+        "learnings":"Lindy seems like a powerful automation assistant that can really speed up processes.  However, I worry about the security implications of providing full access to my email accounts to a 3rd party."
     },
     {
         "id": 15,
@@ -156,7 +156,7 @@
         "tools":"Trae AI",
         "usage":"Development",
         "challengeDescription": "Using prompting in Trae AI combined with my own programming knowledge, I was able to generate this website with HTML, CSS, and JaveScript.",
-        "learnings":""
+        "learnings":"Trae is a powerful development IDE, and was very helpful in solving problems were I had a lack of knowledge. However, there were some drawbacks to using it. First, getting setup proved difficult as I had a bad install of react and it didn't provide much insight into my problems, so I had to google search until I came up with the answer. Secondly, it may not create elegant solutions for complex interactions. I wanted a project card to show some information in the default state and other information in the expanded state. The solutions Trae provided was very complex and only sometimes worked, I had to go through the code and reduce the complexity to get it to consistently work."
     }
   ]
 }
