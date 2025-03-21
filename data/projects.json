@@ -9,7 +9,7 @@
         "imageCaption": "Design Brief Output from ChatGPT",
         "tools":"ChatGPT",
         "usage":"Defining, Scoping, Planning",
-        "challengeDescription": "Leveraging the power of GPT models to revolutionize the design project planning process. This innovative approach combines artificial intelligence with design thinking to automate and optimize project scoping, resource allocation, and timeline planning. The result is a dramatic reduction in planning time while maintaining high accuracy and comprehensive coverage of project requirements. <br>Try it out for yourself at <a href=\"https://chatgpt.com/g/g-67a37c522c608191a0c77ae6aa865a9f-design-project-scoping-sage\">Design Project Scoping Sage</a>.",
+        "challengeDescription": "Leveraging the power of GPT models to revolutionize the design project planning process. This innovative approach combines artificial intelligence with design thinking to automate and optimize project scoping, resource allocation, and timeline planning. The result is a dramatic reduction in planning time while maintaining high accuracy and comprehensive coverage of project requirements. <br><br>Try it out for yourself at <a href=\"https://chatgpt.com/g/g-67a37c522c608191a0c77ae6aa865a9f-design-project-scoping-sage\">Design Project Scoping Sage</a>.",
         "learnings":"The prompt you use to create the design brief is important as a vague prompt will provide inconsistent results. To acheive a high level of specificity I created a prompt then fed that prompt to ChatGPT to generate the design brief. I then fed that design brief to ChatGPT and had it refine the prompt. The refined prompt was then used to create the GPT that generated the design brief."
     },
     {

@@ -253,15 +253,10 @@ body {
     font-size: 0.9rem;
 }
 
-.project-card .project-video {
-    display: none;
-}
-
-.project-card .image-caption {
-    display: none;
-}
-
-.project-card .close-button {
+.project-card .project-video, 
+.project-card .image-caption,
+.project-card .close-button,
+.project-card .project-detailed-description {
     display: none;
 }
 
@@ -269,10 +264,6 @@ body {
     font-size: 1.1rem;
     margin-bottom: 1.5rem;
     color: var(--tertiary-color-dark);
-}
-
-.project-card .project-detailed-description {
-    display: none;
 }
 .project-overlay {
     display: none;
@@ -317,26 +308,29 @@ body {
     height: 40vh;
 }
 
+.project-card.expanded .project-thumbnail h3 {
+    margin: 2rem auto;
+}
 .project-card.expanded .project-video ~ .project-thumbnail {
     display: none;
 }
 
 .project-card.expanded .project-content {
+    display: flex;
     max-width: 800px;
     margin: 0 auto;
-    display: flex;
     flex-direction: column;
     padding: 2rem;
     gap: 1.5rem;
 }
 
 .project-card.expanded .project-video {
-    order: -1;
-    margin-bottom: 2rem;
-    width: 100%;
+   /* order: -1; */
+    display: block;
     max-width: 800px;
     margin: 2rem auto;
-    display: block;
+    margin-bottom: 2rem;
+    width: 100%;
 }
 
 .project-card.expanded .project-video iframe {
