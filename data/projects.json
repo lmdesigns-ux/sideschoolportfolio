@@ -27,7 +27,7 @@
     {
         "id": 3,
         "title": "Challenge 3",
-        "description": "Generating 10s-100s of image ideas in seconds with Krea",
+        "description": "Generating 10s-100s of image ideas in seconds with Krea.",
         "image": "./images/challenge3-thumbnail.jpg",
         "imageLarge": "./images/challenge3-large.jpg",
         "imageCaption": "Image ideas generated with Krea",

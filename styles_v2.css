@@ -4,8 +4,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 :root {
+    /*colors*/
     --primary-color-light: #9dd9d2;
     --primary-color-dark: #76c8c0;
     --secondary-color-light: #fff8f0;
@@ -18,14 +18,22 @@
     --background-color-transparency: rgba(255, 255, 255, 0.95);
     --shadow-color-tenth: rgba(0, 0, 0, 0.1);
     --shadow-color-twentieth: rgba(0, 0, 0, 0.2);
-    --shadow-color-eightieth: rgba(0,0,0,0.8) ;
+    --shadow-color-eightieth: rgba(0,0,0,0.8);
+    /*font*/
+    --font-family-primary: Oswald, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --font-family-secondary: Montserrat,'Courier New', Courier, monospace;
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
+    font-family: var(--font-family-primary);
+    font-kerning: normal;
     background-color: var(--background-color-light);
     color: var(--tertiary-color-dark);
+    line-height: 1.6;
+}
+
+p{
+    margin-bottom: 24px;
 }
 
 /* Navbar Styles */
@@ -117,13 +125,11 @@ body {
     text-decoration: none;
     font-weight: bold;
     transition: transform 0.3s ease;
-    background: var(--tertiary-color-dark);
+    background: var(--tertiary-color-light);
     color: var(--background-color-light);
 }
 
 .cta-button.secondary {
-    background: transparent;
-    border: 2px solid var(--tertiary-color-light);
     background: var(--tertiary-color-light);
     color: var(--background-color-light);
 }
@@ -193,9 +199,10 @@ body {
     background: var(--background-color-light);
 }   
 .about-content {
-    max-width: 800px;
+    max-width: 600px;
     margin: 0 auto;
-    text-align: left; 
+    text-align: left;
+    font-family: var(--font-family-secondary);
 }
 /* Projects Section */
 .projects {
@@ -264,6 +271,7 @@ body {
     font-size: 1.1rem;
     margin-bottom: 1.5rem;
     color: var(--tertiary-color-dark);
+    font-family: var(--font-family-secondary);
 }
 .project-overlay {
     display: none;
@@ -297,19 +305,16 @@ body {
 
 .project-card.expanded .project-thumbnail {
     height: auto;
-    max-height: 70vh;
 }
 
 .project-card.expanded .project-thumbnail img {
     width: 100%;
     height: 100%;
     object-fit: contain;
-    max-height: 70vh;
-    height: 40vh;
 }
 
 .project-card.expanded .project-thumbnail h3 {
-    margin: 2rem auto;
+    margin: 2rem auto 1rem;
 }
 .project-card.expanded .project-video ~ .project-thumbnail {
     display: none;
@@ -325,7 +330,6 @@ body {
 }
 
 .project-card.expanded .project-video {
-   /* order: -1; */
     display: block;
     max-width: 800px;
     margin: 2rem auto;
@@ -385,6 +389,7 @@ body {
 
 .metadata-item p {
     color: var(--tertiary-color-dark);
+    font-family: var(--font-family-secondary);
     font-size: 0.95rem;
     line-height: 1.6;
 }
