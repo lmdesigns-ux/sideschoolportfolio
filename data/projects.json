@@ -7,7 +7,7 @@
         "image": "./images/challenge1-thumbnail.jpg",
         "imageLarge": "./images/challenge1-large.jpg",
         "imageCaption": "Design Brief Output from ChatGPT",
-        "tools":"ChatGPT",
+        "tools":"<a href=\"https://openai.com/index/chatgpt/\">ChatGPT</a>",
         "usage":"Defining, Scoping, Planning",
         "challengeDescription": "Leveraging the power of GPT models to revolutionize the design project planning process. This innovative approach combines artificial intelligence with design thinking to automate and optimize project scoping, resource allocation, and timeline planning. The result is a dramatic reduction in planning time while maintaining high accuracy and comprehensive coverage of project requirements. <br><br>Try it out for yourself at <a href=\"https://chatgpt.com/g/g-67a37c522c608191a0c77ae6aa865a9f-design-project-scoping-sage\">Design Project Scoping Sage</a>.",
         "learnings":"The prompt you use to create the design brief is important as a vague prompt will provide inconsistent results. To acheive a high level of specificity I created a prompt then fed that prompt to ChatGPT to generate the design brief. I then fed that design brief to ChatGPT and had it refine the prompt. The refined prompt was then used to create the GPT that generated the design brief."
@@ -19,7 +19,7 @@
         "image": "./images/challenge2-thumbnail.jpg", 
         "imageLarge": "./images/challenge2-large.jpg",
         "imageCaption": "FemHealth Pitch Deck generated with Gamma",
-        "tools":"Gamma",
+        "tools":"<a href=\"https://gamma.app\">Gamma</a>",
         "usage":"Pitching, Presenting",
         "challengeDescription": "I sped up the pitching process by feeding the design brief to Gamma and generated a pitch deck. With some re-prompting on individual pages and image generation I was able to develop a solid deck.",
         "learnings":"There were a few drawbacks in using Gamma to create the deck. First there were limited styled templates to start with so in the class, many of our decks ended up looking very similar. Secondly, trying to use the inlcuded AI generation made it hard to get images that were visually consistent. Lastly, I found it difficult to manually adjust layouts without throwing the entire slide off."
@@ -31,7 +31,7 @@
         "image": "./images/challenge3-thumbnail.jpg",
         "imageLarge": "./images/challenge3-large.jpg",
         "imageCaption": "Image ideas generated with Krea",
-        "tools":"Krea",
+        "tools":"<a href =\"https://www.krea.ai\">Krea</a>",
         "usage":"Ideation",
         "challengeDescription": "Taking cues from the design brief I used image generation in Krea to help determine the look and feel for the new design.",
         "learnings":"It's helpful to Adjust prompt specificity based on your needs: use vague prompts to generate multiple ideas, or detailed prompts to refine specific concepts. Additionally, ask for variations in different styles to expand your options."
@@ -43,7 +43,7 @@
         "image": "./images/challenge4-thumbnail.jpg",
         "imageLarge": "./images/challenge4-large.jpg",
         "imageCaption": "Consistently styled images with Krea",
-        "tools":"Krea",
+        "tools":"<a href =\"https://www.krea.ai\">Krea</a>",
         "usage":"Styling",
         "challengeDescription": "To gain style consistency across images, I used styles in Krea's flux model. Then tweaked until I reached the desired results.",
         "learnings":"Once you've found a style you like, you can use it as a base picture for the flux model and alter how much following pictures adhere to it. Using the base picture and a new prompt allows you to create new pictures in the same styling so you can quickly create visually consistent collections for a website or product."
@@ -55,7 +55,7 @@
         "image": "./images/challenge5-thumbnail.jpg",
         "imageLarge": "./images/challenge5-large.jpg",
         "imageCaption": "Images generated with the trained Krea Model",
-        "tools":"Krea",
+        "tools":"<a href =\"https://www.krea.ai\">Krea</a>",
         "usage":"Replication, Mass production",
         "challengeDescription": "I fed images to Krea to generate a model to create new styles in Krea that anyone can use. The style can be used at <a href=\"https://www.krea.ai/apps/image/flux?style=e69w1mml0&just_unlocked=true\">Krea Flux Style Page</a>",
         "learnings":"Training Krea with copyrighted material is not allowed in the Terms and Conditions and can result in your account removal. If you train with your own material and allow it to be public it can create many clones of your work on the internet and in the world."
@@ -67,7 +67,7 @@
         "image": "./images/challenge6-thumbnail.jpg",
         "imageLarge": "./images/challenge6-large.jpg",
         "imageCaption": "Still image used to generate video with Krea",
-        "tools":"Krea, Suno, CapCut",
+        "tools":"<a href =\"https://www.krea.ai\">Krea</a>, <a href =\"https://suno.com/home\">Suno</a>, <a href= \"https://www.capcut.com\">CapCut</a>",
         "usage":"Video Creation, Music Creation, Audio and Video Editing",
         "challengeDescription": "In Krea I was able to take two images and have Krea generate a video from those images. Then I generated royalty free audio with Suno, and spliced them both together with CapCut. Video available on YouTube",
         "video_url": "https://www.youtube.com/embed/end6PvohNyw?si=hao8ko3ZRowsrGfG",
@@ -80,7 +80,7 @@
         "image": "./images/challenge8-thumbnail.jpg",
         "imageLarge": "./images/challenge8-large.jpg",
         "imageCaption": "Ad Varients generated with Figma",
-        "tools":"Figma AI, Plugins",
+        "tools":"<a href=\"https://www.figma.com/ai/\">Figma AI, Plugins</a>",
         "usage":"Marketing, Copywriting",
         "challengeDescription": "Using Figma AI and plugins I was able to quickly develop multiple variants in images, and taglines.",
         "learnings":"Generating new images and taglines using Figma AI was easier than generating new layouts. When I prompted the AI to generate a new layout, it generated an entirely different design. More specifically, I wanted new layouts for an ad and it generated a weather app design."
@@ -92,7 +92,7 @@
         "image": "./images/challenge9-thumbnail.jpg",
         "imageLarge": "./images/challenge9-large.jpg",
         "imageCaption": "FemHealth design generated with Musho",
-        "tools":"Musho",
+        "tools":"<a href =\"https://musho.ai\">Musho</a>",
         "usage":"Prototyping",
         "challengeDescription": "Using Musho I was able to generate a web design fitting the project design brief and bring that design into figma to stylize more.",
         "learnings":"I attempted to use Relume first to generate the Inforamtion Architecture and design but I found it slightly difficult to adjust on the free version. Musho generated a usable design quickly but didn't provide a sitemap like Relume. "
@@ -104,7 +104,7 @@
         "image": "./images/challenge10-thumbnail.jpg",
         "imageLarge": "./images/challenge10-large.jpg",
         "imageCaption": "Screenshot of V7 Go Client Profile spreadsheet",
-        "tools":"V7 Go",
+        "tools":"<a href=\"https://www.v7labs.com/go\">V7 Go</a>",
         "usage":"Research",
         "challengeDescription": "I leveraged V7 Go to dramatically reduce time spent researching potential clients through its innovative spreadsheet format. The platform enables sequential GPT searches across columns, creating powerful prompt chains for deeper analysis. This methodology delivers comprehensive insights and synthesis while maintaining exceptional efficiency throughout the research process.",
         "learnings":"V7 Go's chaining ability is game changing. It allows for quick automation and information gathering. However, it is limited to the accuracy of the Ai model used. It can quickly provide factual or fictional information. Therefore, it does not remove the need for careful checking of the information provided to guard against hallucinations."
@@ -116,7 +116,7 @@
         "image": "./images/challenge12-thumbnail.jpg",
         "imageLarge": "./images/challenge12-large.jpg",
         "imageCaption": "Website Re-design based on feedback from Claude and ChatGPT",
-        "tools":"ChatGPT, Claude",
+        "tools":"<a href=\"https://openai.com/index/chatgpt/\">ChatGPT</a>, <a href=\"https://claude.ai/login?returnTo=%2F%3F\"> Claude</a>",
         "usage":"Design Critique, Feedback, Design Iteration",
         "challengeDescription": "Designing in a vacuum is hard, so I received some design feedback by feeding images of my figma designs to ChatGPT and Claude. This allowed me to quickly iterate on my designs.",
         "video_url": "https://www.loom.com/embed/a4b830b309b5446aa79af47b402ec381?sid=3ca64678-00cd-4de7-9b8d-bc3a83e901ae",
@@ -129,7 +129,7 @@
         "image": "./images/challenge13-thumbnail.jpg",
         "imageLarge": "./images/challenge13-large.jpg",
         "imageCaption": "Menstrual Cycle tracking app generated with Lovable",
-        "tools":"Musho, Claude, Lovable",
+        "tools":"<a href =\"https://musho.ai\">Musho</a>, <a href=\"https://claude.ai/login?returnTo=%2F%3F\"> Claude</a>, <a href=\"https://lovable.dev\">Lovable</a>",
         "usage":"Prototyping, Development, Hosting",
         "challengeDescription": "I created a design prototype in Musho, then prompted claude to write the specifications I would need to give an engineer to develop the site. I then fed those specifications and designs to Lovable to generate this app prototype.",
         "learnings":"This flow is amazingly fast, and I'm impressed with the results. The one difficulty I found was in getting the design interactions fully functional. There maybe a way to do this with Lovable, but I didn't have time to figure it out."
@@ -141,7 +141,7 @@
         "image": "./images/challenge14-thumbnail.jpg",
         "imageLarge": "./images/challenge14-large.jpg",
         "imageCaption": "Email Auto Response from Lindy",
-        "tools":"Lindy",
+        "tools":"<a href=\"https://www.lindy.ai\">Lindy</a>",
         "usage":"Automation",
         "challengeDescription": "Within Lindy I was able to setup an automation that reads my emails and determines if they meet specific criteria. From there Lindy will auto respond by generating a message from a Knowledgebase of my choosing.",
         "learnings":"Lindy seems like a powerful automation assistant that can really speed up processes.  However, I worry about the security implications of providing full access to my email accounts to a 3rd party."
@@ -153,7 +153,7 @@
         "image": "./images/challenge15-thumbnail.jpg",
         "imageLarge": "./images/challenge15-large.jpg",
         "imageCaption": "This website",
-        "tools":"Trae AI",
+        "tools":"<a href=\"https://www.trae.ai\">Trae AI</a>",
         "usage":"Development",
         "challengeDescription": "Using prompting in Trae AI combined with my own programming knowledge, I was able to generate this website with HTML, CSS, and JaveScript.",
         "learnings":"Trae is a powerful development IDE, and was very helpful in solving problems were I had a lack of knowledge. However, there were some drawbacks to using it. First, getting setup proved difficult as I had a bad install of react and it didn't provide much insight into my problems, so I had to google search until I came up with the answer. Secondly, it may not create elegant solutions for complex interactions. I wanted a project card to show some information in the default state and other information in the expanded state. The solutions Trae provided was very complex and only sometimes worked, I had to go through the code and reduce the complexity to get it to consistently work."
