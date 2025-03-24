@@ -112,7 +112,7 @@
     {
         "id": 12,
         "title": "Challenge 12",
-        "description": "Getting design feedback with ChatGPT and Claude",
+        "description": "Getting design feedback with ChatGPT and Claude.",
         "image": "./images/challenge12-thumbnail.jpg",
         "imageLarge": "./images/challenge12-large.jpg",
         "imageCaption": "Website Re-design based on feedback from Claude and ChatGPT",
@@ -125,7 +125,7 @@
     {
         "id": 13,
         "title": "Challenge 13",
-        "description": "From design to protoype with Figma and Lovable",
+        "description": "Going from design to interactive protoype with Figma and Lovable.",
         "image": "./images/challenge13-thumbnail.jpg",
         "imageLarge": "./images/challenge13-large.jpg",
         "imageCaption": "Menstrual Cycle tracking app generated with Lovable",
@@ -137,7 +137,7 @@
     {
         "id": 14,
         "title": "Challenge 14",
-        "description": "Auto answering important emails with Lindy to speed up my administrative workflow.",
+        "description": "Auto-answering important emails with Lindy to speed up my administrative workflow.",
         "image": "./images/challenge14-thumbnail.jpg",
         "imageLarge": "./images/challenge14-large.jpg",
         "imageCaption": "Email Auto Response from Lindy",
@@ -149,7 +149,7 @@
     {
         "id": 15,
         "title": "Challenge 15",
-        "description": "A portfolio of challenges generated with Trae AI development assistant.",
+        "description": "Developing a portfolio of challenges with the Trae AI assistant.",
         "image": "./images/challenge15-thumbnail.jpg",
         "imageLarge": "./images/challenge15-large.jpg",
         "imageCaption": "This website",

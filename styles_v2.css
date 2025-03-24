@@ -85,7 +85,7 @@ p{
 
 /* Hero Section */
 .hero {
-    height: 100vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -137,7 +137,7 @@ p{
 .cta-button:hover {
     transform: translateY(-3px);
 }
-
+/*
 .hero-scroll {
     position: absolute;
     bottom: 2rem;
@@ -165,7 +165,7 @@ p{
     border-radius: 2px;
     animation: scrollIndicator 1.5s infinite;
 }
-
+*/
 /* Animations */
 @keyframes fadeInUp {
     from {
